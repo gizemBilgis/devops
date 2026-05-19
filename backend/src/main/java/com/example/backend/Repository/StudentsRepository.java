@@ -1,7 +1,7 @@
 package com.example.backend.Repository;
 
-import com.example.backend.Models.Students;
-import org.springframework.data.jpa.repository.JpaRepository;
+//import com.example.backend.Models.Students;
+//import org.springframework.data.jpa.repository.JpaRepository;
 
 //public interface StudentsRepository extends JpaRepository<Students, Long> {
 //
