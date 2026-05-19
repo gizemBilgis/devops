@@ -8,27 +8,27 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 
 import java.util.List;
-@Entity
-@Data
-@NoArgsConstructor
-@AllArgsConstructor
-public class Students {
-    @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Long id;
-    @Column(length = 16)
-    private String name;
-    @Column(length = 16)
-    private String department;
-
-
-
-
-    //@JsonBackReference
-    @JsonIgnore
-    @OneToMany(mappedBy = "students", cascade = CascadeType.ALL)
-    private List<Reservation> reservations;
-
-
-}
+//@Entity
+//@Data
+//@NoArgsConstructor
+//@AllArgsConstructor
+//public class Students {
+//    @Id
+//    @GeneratedValue(strategy = GenerationType.IDENTITY)
+//    private Long id;
+//    @Column(length = 16)
+//    private String name;
+//    @Column(length = 16)
+//    private String department;
+//
+//
+//
+//
+//    //@JsonBackReference
+//    @JsonIgnore
+//    @OneToMany(mappedBy = "students", cascade = CascadeType.ALL)
+//    private List<Reservation> reservations;
+//
+//
+//}
 
