@@ -1,4 +1,4 @@
-FROM openjdk:25-slim
+FROM eclipse-temurin:25-jdk
 VOLUME /tmp
 COPY build/libs/*.jar app.jar
 EXPOSE 8080
