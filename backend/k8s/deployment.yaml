@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: devops-app-container
-        image: gizemBilgis/devops:latest
+        image: gizem0/devops:latest
         imagePullPolicy: Always
         ports:
         - containerPort: 8080
