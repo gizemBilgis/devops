@@ -25,8 +25,8 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class HomeController {
 
-    @GetMapping("/homeee")
+    @GetMapping("/home")
     public String getHome(){
-        return "Merhaba DevOps! İlk CI/CD Pipeline projemiz basariyla calisiyor.";
+        return "Merhaba DevOps! İlk CI/CD Pipeline projemiz basariyla calisiyor. ve mutluyuz";
     }
 }
