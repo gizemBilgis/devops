@@ -27,6 +27,6 @@ public class HomeController {
 
     @GetMapping("/home")
     public String getHome(){
-        return "Merhaba DevOps! İlk CI/CD Pipeline projemiz basariyla calisiyor. ve mutluyuz";
+        return "Merhaba DevOps! İlk CI/CD Pipeline projemiz basariyla calisiyor. ve mutluyuz22";
     }
 }
